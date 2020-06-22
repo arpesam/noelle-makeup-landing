@@ -1,0 +1,15 @@
+.section-what-we-do {
+  align-items: center;
+  background-color: #FAFAED;
+  color: #143166;
+}
+
+.section-what-we-do h2 {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .section-what-we-do h2 {
+    margin: 20px 0 30px 0;
+  }
+}

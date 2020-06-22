@@ -1,0 +1,138 @@
+.navbar-container {
+  /* padding: 67px 0 0 16px; */
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  color: #66FFE2
+}
+
+.navbar-logo:hover {
+  cursor: pointer;
+}
+
+.navbar-menu-items a, #close-button {
+  text-align: center;
+  padding: 12px 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 1.060em;
+  color: #000;
+}
+
+.navbar-menu-items a:hover {
+  /* color: white; */
+  color: #4464cf;
+  font-weight: bold;
+}
+
+#btn-schedule {
+  background-color: #4464cf;
+  color: white;
+}
+
+#btn-schedule:hover {
+  background-color: #000;
+}
+
+/* .icon {
+  color: red;
+} */
+
+.navbar-container .icon {
+  display: none;
+}
+
+#close-button {
+  color: #66FFE2;
+  display: none;
+}
+@media screen and (max-width: 1150px) {
+  .navbar-container {
+    justify-content: space-between;
+    position: relative;
+  }
+  .navbar-container .navbar-menu-items {display: none;}
+  .navbar-container .icon {
+    display: block;
+    box-sizing: border-box;
+  }
+  .icon img {
+    margin-top: 5px;
+  }
+  .navbar-container .navbar-logo {box-sizing: border-box; padding-top: 6px;}
+  .navbar-container .navbar-logo img {height: 30px;}
+  .navbar-menu-items {
+    position: absolute;
+    background: linear-gradient(129.34deg, #011335 45.12%, #4BFCDA 149.77%);
+    top: 0;
+    left: 70%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.3em;
+    z-index: 1;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  
+  #close-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  #close-button span {
+    padding: 0 20px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar-container {
+    background-color: #011335;
+    padding: 7px;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+  }
+  .navbar-container .navbar-menu-items {display: none;}
+  .navbar-container .icon {
+    display: block;
+    box-sizing: border-box;
+  }
+  .icon img {
+    margin-top: 5px;
+  }
+  .navbar-container .navbar-logo {box-sizing: border-box; padding-top: 6px;}
+  .navbar-container .navbar-logo img {height: 30px;}
+  .navbar-menu-items {
+    position: absolute;
+    /* background-color: #143166; */
+    background: linear-gradient(129.34deg, #011335 45.12%, #4BFCDA 149.77%);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.3em;
+    z-index: 1;
+    padding-left: 10px;
+  }
+  
+  #close-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  #close-button span {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  min-height: 150px;
+  box-sizing: border-box;
+  background: linear-gradient(163.91deg, #011335 17.17%, #143166 88.29%);
+  justify-content: space-between;
+  align-items: center;
+  color: #66FFE2;
+}
+
+.footer-logo-container {
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 0 16px !important;
+  }
+}

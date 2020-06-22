@@ -1,0 +1,23 @@
+.use-case-card {
+  background: linear-gradient(144.02deg, #028090 -1.69%, #66FFE2 71.13%);
+  color: #143166;
+  border-radius: 10px;
+  margin: 15px 10px;
+  text-align: center;
+  min-height: 400px;
+  min-height: 340px;
+  padding: 30px 50px 20px 50px;
+}
+
+.use-case-card p, h3 {
+  text-align: start;
+}
+
+@media screen and (max-width: 600px) {
+  .use-case-card {
+    margin: 20px 15px;
+    text-align: center;
+    min-height: 400px;
+    padding: 30px 16px 20px 16px;
+  }  
+}

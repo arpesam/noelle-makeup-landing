@@ -1,0 +1,35 @@
+.our-services-section {
+  justify-content: space-between;
+  /* padding: 50px 5% !important; */
+  flex-wrap: wrap;
+  align-items: center;
+  color: #FAFAED;
+  background: #143166;
+}
+
+.our-services-text {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: start;
+  min-height: 320px;
+}
+
+.our-services-text span {
+  font-weight: bold;
+}
+
+.our-services-section h2 {
+  color: #66FFE2;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .our-services-section img {
+    display: none;
+  }
+  .our-services-text {
+    width: 100%;
+  }
+}

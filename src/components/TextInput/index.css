@@ -1,0 +1,15 @@
+.text-input-container {
+  margin: 2px 0; 
+}
+
+.text-input {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  height: 35px;
+  margin: 7px 0 10px 0;
+  width: 356px;
+}
+
+@media screen and (max-width: 600px) {
+  .text-input {width: 280px !important;}
+}

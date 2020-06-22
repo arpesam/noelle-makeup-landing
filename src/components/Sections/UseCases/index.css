@@ -1,0 +1,24 @@
+.use-cases-section {
+  background-color: #FAFAED;
+  padding: 60px 0 50px 0;
+  color: #143166;
+  text-align: center;
+}
+
+.use-cases-section h2 {
+  margin-top: 0;
+}
+
+#responsive-cards {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #responsive-cards {
+    display: block;
+  }
+  .BrainhubCarousel__container {
+    display: none;
+  }
+
+}
