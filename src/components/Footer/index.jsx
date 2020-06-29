@@ -12,7 +12,7 @@ const Footer = () => {
         <p>Contato</p>
         <p><i class="fab fa-whatsapp" size="4x"></i> 11 941411913</p>
         <p>
-          <a href="https://www.instagram.com/noellesampaio.makeup/" target="_blank">
+          <a href="https://www.instagram.com/noellesampaio.makeup/" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-instagram" size="4x"> </i> @noellesampaio.makeup
           </a>
         </p>
