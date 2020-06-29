@@ -1,14 +1,24 @@
 import React from 'react';
-import logo from '../../assets/images/logo.svg'
 import './index.css';
 
 
 const Footer = () => {
   return (
-    <div className="flex-row section footer">
+    <div className="flex-row section footer" id="footer">
       <div className="flex-column footer-logo-container">
-        <img src={logo} alt="logo-footer" height="23" style={{ marginBottom: '5px' }} />
-        <div>Noelle Makeup - Todos os direitos reservados </div>
+        <p>Noelle Makeup - Todos os direitos reservados </p>
+      </div>
+      <div className="footer-contact">
+        <p>Contato</p>
+        <p><i class="fab fa-whatsapp" size="4x"></i> 11 941411913</p>
+        <p>
+          <a href="https://www.instagram.com/noellesampaio.makeup/" target="_blank">
+            <i class="fab fa-instagram" size="4x"> </i> @noellesampaio.makeup
+          </a>
+        </p>
+        <p>
+          <i class="far fa-envelope"></i> cursos.noelle.makeup@gmail.com
+        </p>
       </div>
     </div>
   )

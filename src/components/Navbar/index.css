@@ -1,46 +1,43 @@
 .navbar-container {
-  /* padding: 67px 0 0 16px; */
-  width: 100%;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-}
-
-.navbar-logo {
-  color: #66FFE2
+  background-color: #4464cf;
+  height: 7rem;
+  padding: 0 5%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 50;
+  left: 0;
 }
 
 .navbar-logo:hover {
   cursor: pointer;
 }
 
-.navbar-menu-items a, #close-button {
+.navbar-menu-items a {
   text-align: center;
   padding: 12px 10px;
   margin-left: 5px;
   text-decoration: none;
-  font-size: 1.060em;
-  color: #000;
+  font-size: 1.160em;
+  color: white;
 }
 
 .navbar-menu-items a:hover {
-  /* color: white; */
   color: #4464cf;
   font-weight: bold;
 }
 
 #btn-schedule {
-  background-color: #4464cf;
+  background-color: black;
   color: white;
+
 }
 
 #btn-schedule:hover {
   background-color: #000;
 }
-
-/* .icon {
-  color: red;
-} */
 
 .navbar-container .icon {
   display: none;
@@ -50,7 +47,10 @@
   color: #66FFE2;
   display: none;
 }
-@media screen and (max-width: 1150px) {
+
+
+
+/* @media screen and (max-width: 1150px) {
   .navbar-container {
     justify-content: space-between;
     position: relative;
@@ -112,7 +112,6 @@
   .navbar-container .navbar-logo img {height: 30px;}
   .navbar-menu-items {
     position: absolute;
-    /* background-color: #143166; */
     background: linear-gradient(129.34deg, #011335 45.12%, #4BFCDA 149.77%);
     top: 0;
     left: 0;
@@ -135,4 +134,4 @@
   #close-button span {
     padding: 0 20px;
   }
-}
+} */

@@ -1,17 +1,13 @@
 .intro-section {
   min-height: 100vh;
   flex-wrap: wrap;
-  padding: 25px 5%;
+  padding: 45px 5%;
   box-sizing: border-box;
-  background-image: url("../../../assets/images/pincel-sem-bg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
   background-color: #fff;
 }
 
 .intro-content {
-  flex: 1 1 auto;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -21,37 +17,10 @@
   font-size: 3em;
   line-height: 133%;
   font-weight: bold;
-  width: 62%;
+  width: 50%;
 }
 
 .intro-text p {
-  /* font-family: 'Pathway Gothic One', sans-serif; */
-  /* font-family: 'Didact Gothic', sans-serif; */
-  /* font-family: 'Carrois Gothic SC', sans-serif; */
-  /* font-family: 'Playfair Display', serif; */
   font-family: 'Gotu', sans-serif;
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-family: 'Nanum Gothic Coding', monospace; */
   margin: 10px 0 40px 0;
-}
-
-/* .intro-text span {
-  font-weight: bold;
-  display: block;
-} */
-
-@media screen and (max-width: 700px) {
-  .intro-animations {display: none;}
-  .intro-section {
-    padding: 0 !important;
-    justify-content: flex-start;
-  }
-  .intro-content {
-    align-items: flex-start;
-    padding: 20px 5% 0 5%;
-  }
-  .intro-text {
-    font-size: 2.5em;
-    width: 100%;
-  }
 }

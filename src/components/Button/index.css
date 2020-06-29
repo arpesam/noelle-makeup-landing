@@ -14,6 +14,7 @@
   overflow: hidden;
   cursor: pointer;
   color: white;
+  z-index: 1;
 }
 
 .action-button:hover {

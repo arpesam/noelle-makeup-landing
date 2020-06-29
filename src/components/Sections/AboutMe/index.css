@@ -1,0 +1,12 @@
+.about-me {
+  padding: 50px 5% 0 5%;
+  text-align: start;
+  justify-content: space-around;
+}
+
+.about-me-text {
+  padding-top: 30px;
+  width: 50%;
+  justify-content: center;
+  font-size: 1.4em;
+}

@@ -1,14 +1,20 @@
 .footer {
   min-height: 150px;
   box-sizing: border-box;
-  background: linear-gradient(163.91deg, #011335 17.17%, #143166 88.29%);
+  background: #000;
   justify-content: space-between;
   align-items: center;
-  color: #66FFE2;
+  color: white;
+  padding: 0 5%;
 }
 
-.footer-logo-container {
-  align-items: flex-start;
+.footer-contact {
+  text-align: start;
+  width: 50%;
+}
+
+.footer-contact p {
+  margin: 2px;
 }
 
 @media screen and (max-width: 600px) {

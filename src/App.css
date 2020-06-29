@@ -1,22 +1,10 @@
 .App {
   text-align: center;
-  /* font-family: 'Karla', serif; */
-  /* font-family: 'Didact Gothic', sans-serif; */
-  /* font-family: 'Pathway Gothic One', sans-serif; */
-/* font-family: 'Nanum Gothic Coding', monospace; */
-font-family: 'Carrois Gothic', sans-serif;
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Carrois Gothic', sans-serif;
   line-height: 150%;
 }
 
-.section {
-  padding: 50px 5%;
-}
-
 h2, h3 {
-  /* font-family: 'Spectral', serif; */
-  /* font-family: 'Didact Gothic', sans-serif; */
-  /* font-family: 'Pathway Gothic One', sans-serif; */
   font-family: 'Carrois Gothic', sans-serif;
 }
 
