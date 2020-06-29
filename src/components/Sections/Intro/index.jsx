@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../Navbar';
 import Button from '../../Button';
 
 import pincel from '../../../assets/images/pincel-sem-bg.png'
